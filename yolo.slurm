@@ -38,7 +38,7 @@ pip freeze
 yolo settings wandb=True
 
 # Run the Python script
-python ultralytics_fashion_mnist.py.py
+python ultralytics_fashion_mnist.py
 
 # Deactivate the environment
 conda deactivate
