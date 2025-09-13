@@ -1,5 +1,5 @@
 #!/bin/sh
-#SBATCH --account=share-ie-idi
+#SBATCH --account=studiegrupper-cogito
 #SBATCH --job-name="test-slurm-job"
 #SBATCH --time=00:20:00
 #SBATCH --partition=CPUQ

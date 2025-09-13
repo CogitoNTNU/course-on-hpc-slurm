@@ -1,6 +1,6 @@
 #!/bin/bash
 #SBATCH --job-name="my-job"    # Sensible name for the job
-#SBATCH --account=share-ie-idi # Account for consumed resources
+#SBATCH --account=studiegrupper-cogito # Account for consumed resources
 #SBATCH --nodes=1              # Allocate 1 nodes for the job
 #SBATCH -c28                   # Number of cores (can vary)
 #SBATCH --time=00-00:10:00     # Upper time limit for the job (DD-HH:MM:SS)
