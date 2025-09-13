@@ -19,7 +19,7 @@ echo "Name of job: $SLURM_JOB_NAME"
 echo "ID of job: $SLURM_JOB_ID"
 echo "The job was run on these nodes: $SLURM_JOB_NODELIST"
 
-ENV_PATH="/cluster/work/$(whoami)/hpc-slurm-course/cv-env/"
+ENV_PATH="/cluster/work/$(whoami)/course-on-hpc-slurm/cv-env/"
 
 module purge
 module load Anaconda3/2024.02-1

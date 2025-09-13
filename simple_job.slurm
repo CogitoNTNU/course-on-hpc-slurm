@@ -20,4 +20,4 @@ echo "The job was run on these nodes: $SLURM_JOB_NODELIST"
 
 echo "SLURM job executed"
 
-# "sbatch ./yolo.slurm"  to run the job
+# "sbatch ./simple_job.slurm"  to run the job
