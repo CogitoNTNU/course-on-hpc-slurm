@@ -45,10 +45,17 @@ Cancel a job:
 scancel <job-id>
 ```
 
-List running/pending jobs:
+Get all your pending or running jobs
+```bash
+squeue --me
+```
+
+List running/pending jobs for user:
 ```bash
 squeue -u <username>
 ```
+
+
 
 Watch running job execution:
 ```bash
