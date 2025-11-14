@@ -71,6 +71,18 @@ alias gowork='cd /cluster/work/$(whoami)/'
 alias past_jobs='sacct -X --format=JobID,Jobname%30,state,time,elapsed,nnodes,ncpus,nodelist,AllocTRES%50'
 alias queue='watch -n 5 "squeue --me --format=\"%.18i %.9P %.30j %.8u %.8T %.10M %.9l %.6D %.19S %R\""'
 ```
+### Persistant aliases:
+If your using the aliases, and want them to stay in IDUN when you go in and out:
+```bash
+vim ~/.bashrc
+```
+
+Add at the buttom of the file the aliases as above^. Remember to save and quit vim.
+
+```bash
+source ~/.bashrc
+```
+This will test if it's correctly made, after running this you can use the commandos (and they are active on login to IDUN)
 
 
 
